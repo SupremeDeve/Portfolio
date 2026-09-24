@@ -533,8 +533,7 @@ section h2{
 }
 
 .jogo-imagem.sem-imagem::before{
-    /* ícone de controle exibido quando a imagem do jogo falta */
-    content:"🎮";
+  
 
     font-size:50px;
 
@@ -631,6 +630,8 @@ section h2{
     margin-bottom:20px;
 
     flex:1; /* empurra o botão "Ver jogo" para o final do card */
+
+    text-align: justify;
 }
 
 .jogo-info .botao{
